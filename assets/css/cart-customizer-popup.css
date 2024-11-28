@@ -1,0 +1,95 @@
+/**
+ * Addweb WC_Integration class 
+ *
+ * @package   Simple Customization of Add to Cart Button
+ * @author    Addweb Solution Pvt. Ltd.
+ * @license   GPL-2.0+
+ * @link      http://www.addwebsolution.com
+ * @copyright 2016 AddWeb Solution
+ */
+body {
+    -ms-overflow-style: scrollbar;
+}
+
+
+#pt-about .advertise {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  #pt-about .advertise .ad-heading {
+    display: inline-block;
+    width: 100%;
+    margin: 25px 0;
+    font-size: 20px;
+  }
+  
+  #pt-about .advertise .ad-content {
+    /* display: inline-block; */
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    align-items: stretch;
+  }
+  
+  #pt-about .advertise .ad-content .ad-detail {
+    /* display: inline-block;
+    width: 24.33%;    */
+    text-align: center;
+    background: #fff;
+    flex: 25% 0 0;
+    
+  }
+  
+  #pt-about .advertise .ad-content .ad-detail .ad-inner {
+    
+    padding: 25px 10px;
+    margin: 10px;
+    text-align: center;
+   
+    border: 1px solid #d1d1d1;
+    border-radius: 15px;
+    min-height: 213px;
+  }
+  
+  #pt-about .advertise .ad-content .ad-detail a {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  #pt-about .advertise .ad-content .ad-detail .ad-link {
+    display: block;
+  }
+  
+  #pt-about .advertise .ad-content .ad-detail a:focus {
+    box-shadow: none;
+  }
+  
+  #pt-about .advertise .ad-content .ad-detail a:hover {
+    color: #00a0d2;
+  }
+  
+  #pt-about .advertise .ad-content .ad-detail:last-child {
+    margin-right: 0;
+  }
+  
+  #pt-about .advertise .ad-content .ad-detail img {
+    max-width: 160px;
+    width: 100%;
+  }
+  
+  .nav-menus-php #wpwrap .top-right, .nav-menus-php #wpwrap .top-left,
+  .user-new-php #wpwrap .top-right, .user-new-php #wpwrap .top-left {
+  position: absolute;
+  top: 0;
+  }
+  
+  
+  .pt-wrap
+  {
+  
+    width: calc(100% - 20px);
+    margin-top: 50px;
+  }
